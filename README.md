@@ -1,4 +1,14 @@
 <p align="center">
+  <img src="./profile-effects/terminal.svg" alt="Terminal showing marker-dao’s GitHub contribution calendar, streaks, and monthly activity." width="860" height="317">
+</p>
+
+<p align="center">
+  <sub><a href="https://github.com/qwerty-ll/CustomizeYouProfile">Terminal by qwerty-ll</a></sub>
+</p>
+
+<br>
+
+<p align="center">
   <strong>Review. Fix. Repeat.</strong>
 </p>
 
@@ -9,15 +19,5 @@
 <br>
 
 <p align="center">
-  <img src="./assets/night-shift-tracking.svg" alt="Night Shift: the camera follows a black-and-yellow freight wagon through a scrolling night city, with five loading stops and a dispatch terminal before the next sprint." width="1200" height="500">
-</p>
-
-<br>
-
-<p align="center">
-  <img src="./profile-effects/terminal.svg" alt="Terminal showing marker-dao’s GitHub contribution calendar, streaks, and monthly activity." width="860" height="317">
-</p>
-
-<p align="center">
-  <sub><a href="https://github.com/qwerty-ll/CustomizeYouProfile">Terminal by qwerty-ll</a></sub>
+  <img src="./assets/night-shift-route.svg" alt="Night Shift: the camera follows a black-and-yellow freight wagon through a scrolling night city, with five loading stops and a dispatch terminal before the next sprint." width="1200" height="500">
 </p>
