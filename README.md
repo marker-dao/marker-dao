@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/review-vs-fix-wide.webp" alt="REVIEW and FIX: two versions of the same developer in a staged rooftop katana duel." width="1200" height="675">
+  <img src="./assets/review-vs-fix-rounded.webp" alt="REVIEW and FIX: two versions of the same developer in a staged rooftop katana duel." width="1200" height="675">
 </p>
 
 <p align="center">
