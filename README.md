@@ -2,10 +2,6 @@
   <img src="./profile-effects/terminal.svg" alt="Terminal showing marker-dao’s GitHub contribution calendar, streaks, and monthly activity." width="860" height="317">
 </p>
 
-<p align="center">
-  <sub><a href="https://github.com/qwerty-ll/CustomizeYouProfile">Terminal by qwerty-ll</a></sub>
-</p>
-
 <br>
 
 <p align="center">
