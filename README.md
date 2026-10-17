@@ -5,3 +5,9 @@
 <p align="center">
   <img src="./assets/review-vs-fix.webp" alt="REVIEW and FIX: two versions of the same developer in a staged rooftop katana duel." width="640" height="360">
 </p>
+
+<br>
+
+<p align="center">
+  <img src="./assets/night-shift.svg" alt="Night Shift: a black-and-yellow freight wagon collects five cubes at five loading stations, unloads at the dispatch terminal, and starts a new sprint." width="1200" height="500">
+</p>
