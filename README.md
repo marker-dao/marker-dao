@@ -7,5 +7,5 @@
 </p>
 
 <p align="center">
-  <img src="./assets/night-shift-shorter.svg" alt="Night Shift: the camera follows a black-and-yellow freight wagon through a scrolling night city, with five loading stops and a dispatch terminal before the next sprint." width="1200" height="500">
+  <img src="./assets/night-shift-dispatch.svg" alt="Night Shift: a black-and-yellow wagon enters from the left, collects five cubes as the city scrolls past, approaches the centered Dispatch terminal, unloads and exits to the right." width="1200" height="500">
 </p>
