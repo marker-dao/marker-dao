@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile-effects/terminal.svg" alt="Terminal showing marker-dao’s GitHub contribution calendar, streaks, and monthly activity." width="860" height="317">
+  <img src="https://raw.githubusercontent.com/marker-dao/marker-dao/refs/heads/marker-dao/profile-assets/profile-effects/terminal.svg" alt="Terminal showing marker-dao’s GitHub contribution calendar, streaks, and monthly activity." width="860" height="317">
 </p>
 
 <p align="center">

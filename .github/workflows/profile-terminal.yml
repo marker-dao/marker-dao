@@ -23,9 +23,13 @@ jobs:
     timeout-minutes: 5
     permissions:
       contents: write
+    env:
+      ASSETS_BRANCH: marker-dao/profile-assets
     steps:
       - name: Check out profile
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
 
       - name: Generate Terminal from GitHub contributions
         uses: qwerty-ll/CustomizeYouProfile@5961d3171cec359f995784d85cc1f11430678a93
@@ -39,8 +43,16 @@ jobs:
       - name: Label contributions accurately
         run: node .github/scripts/finalize-terminal.mjs
 
-      - name: Publish updated Terminal
+      - name: Check out generated assets branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ env.ASSETS_BRANCH }}
+          path: terminal-assets
+
+      - name: Publish updated Terminal to assets branch
+        working-directory: terminal-assets
         run: |
+          cp ../profile-effects/terminal.svg profile-effects/terminal.svg
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- profile-effects/terminal.svg
@@ -49,5 +61,5 @@ jobs:
             exit 0
           fi
           git commit -m 'Update Terminal contribution activity'
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git pull --rebase origin "$ASSETS_BRANCH"
+          git push origin "HEAD:refs/heads/$ASSETS_BRANCH"
